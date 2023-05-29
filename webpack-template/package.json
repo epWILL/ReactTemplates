@@ -1,0 +1,68 @@
+{
+  "name": "react-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "GNU GPL v3.0",
+  "private": false,
+  "scripts": {
+    "start": "node ./webpack/scripts/start.js",
+    "build": "node ./webpack/scripts/build.js",
+    "serve": "serve -s build"
+  },
+  "dependencies": {
+    "@types/react": "^18.2.7",
+    "@types/react-dom": "^18.2.4",
+    "@types/react-router-dom": "^5.3.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.11.2",
+    "typescript": "^5.0.4"
+  },
+  "devDependencies": {
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.10",
+    "@svgr/webpack": "^8.0.1",
+    "babel-loader": "^9.1.2",
+    "babel-preset-react-app": "^10.0.1",
+    "case-sensitive-paths-webpack-plugin": "^2.4.0",
+    "css-loader": "^6.8.1",
+    "css-minimizer-webpack-plugin": "^5.0.0",
+    "dotenv": "^16.0.3",
+    "dotenv-expand": "^10.0.0",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.1",
+    "mini-css-extract-plugin": "^2.7.6",
+    "react-dev-utils": "^12.0.1",
+    "react-refresh": "^0.14.0",
+    "resolve": "^1.22.2",
+    "serve": "^14.2.0",
+    "source-map-loader": "^4.0.1",
+    "style-loader": "^3.3.3",
+    "terser-webpack-plugin": "^5.3.9",
+    "webpack": "^5.84.1",
+    "webpack-dev-server": "^4.15.0",
+    "webpack-manifest-plugin": "^5.0.0",
+    "workbox-webpack-plugin": "^6.6.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "babel": {
+    "presets": [
+      "react-app"
+    ]
+  },
+  "engines": {
+    "npm": "use-yarn",
+    "node": ">=18",
+    "yarn": ">=1.22"
+  }
+}
